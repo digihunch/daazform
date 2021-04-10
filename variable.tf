@@ -2,7 +2,7 @@
 
 variable "region" {
     type = string
-    default = "Central US"
+    default = "East US"
 }
 
 variable "env" {

@@ -14,7 +14,8 @@ resource "azurerm_storage_account" "storacc" {
     location                 = azurerm_resource_group.arg.location
     account_tier             = "Standard"
     account_replication_type = "LRS"
-
+    #account_kind defaults to "StorageV2"
+    #is_hns_enabled defaults to True when account_tier is Standard
 #    network_rules {
 #        default_action             = "Deny"
 #        ip_rules                   = ["100.0.0.1"]
