@@ -12,7 +12,7 @@ variable "env" {
 
 variable "subscription_id" {
     type = string
-    default = "7f2177a8-8cec-4f8e-a7a5-6fcd808b49a8"
+    default = "e7de40cb-b6b4-4537-bd2e-271de74ff325"
 }
 
 variable "vm_admin_user" {
